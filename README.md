@@ -7,10 +7,17 @@ this copy paste code will add a login feature on your home page and an authentic
 3-(optional) python to grab ip  
 
 #files_to_create:   
-1- emak.txt for storing the access code (if the user put the right credentials or not) !will fail without     
-2- hashlog.txt for storing the logs !will fail without    
-3-pass.txt holds the password you write in to use   
+1- emak.txt for storing the access code (stores the value if the user put the right credentials or not) !will fail without     
+2- hashlog.txt for storing the logs !will fail without (logs are stored here no need to edit)
+3-pass.txt holds the password you write in to use and (insert your password)			
 notice: all the files are to be stored in ./login.php --> ../misc/thefile.txt or change the path in php files for convinience     
+
+#things_to_edit:		
+1-change emak.txt in php script to match your prefered path			
+2-change hashlog.txt in php script to match your prefered path			
+3-change pass.txt in php script to match your prefered path		
+5-ipz.txt in php script to match your prefered path		
+4-username in login_home_page.php line 10	
 
 #why use?:  
 1- use this if you just want a login pass and username page with authorization on the php files for personal and limited use notihng required can even run on localhost 
